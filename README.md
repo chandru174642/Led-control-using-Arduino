@@ -4,7 +4,7 @@ NAME:CHANDRU.P
 REG NO:212223110007
 
 
-# Led-control-using-Arduino
+# EXP 1:Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -114,4 +114,4 @@ SWITCH OFF:
 
 ## RESULT
 
-To design and implement a system for LED control using an Arduino microcontroller and a push button is sucessfully Executed
+ designed and implemented a system for LED control using an Arduino microcontroller and a push button is sucessfully Executed
