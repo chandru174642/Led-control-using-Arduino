@@ -1,3 +1,9 @@
+NAME:CHANDRU.P
+
+
+REG NO:212223110007
+
+
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +64,54 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="609" height="402" alt="Screenshot 2025-08-21 085808" src="https://github.com/user-attachments/assets/219dc544-1f00-46db-90cc-1dfb187afd20" />
+
+
 
 ## PROGRAM
+```
+void setup() {
+
+  pinMode(6,OUTPUT);
+
+}
+
+void loop() {
+  int status=digitalRead(2);
+  if(status==HIGH){
+    digitalWrite(6,HIGH);
+    delay(1000);
+    digitalWrite(6,LOW);
+    delay(1000);
+
+  }
+  else{
+    digitalWrite(6,LOW);
+
+
+
+}
+}
+```
 
 ## OUTPUT
+SWITCH ON:
+
+
+
+<img width="787" height="500" alt="Screenshot 2025-08-21 084853" src="https://github.com/user-attachments/assets/1b2a94a4-04d7-412e-afac-442a55bc02f9" />
+
+
+SWITCH OFF:
+
+
+
+
+<img width="828" height="530" alt="Screenshot 2025-08-21 085210" src="https://github.com/user-attachments/assets/1cd4d6c8-6703-43e7-bbb3-351a09da15e4" />
+
+
+
 
 ## RESULT
+
+To design and implement a system for LED control using an Arduino microcontroller and a push button is sucessfully Executed
